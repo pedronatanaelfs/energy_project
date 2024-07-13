@@ -12,14 +12,14 @@ To reproduce this project, follow the steps below:
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/username/wind-energy-demand-forecast.git
-    cd wind-energy-demand-forecast
+    git clone https://github.com/pedronatanaelfs/energy_project
+    cd energy_project
     ```
 
-2. **Create a virtual environment and activate it:**
+2. **Create and activate a new Anaconda environment:**
     ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    conda create --name energy_env python=3.12
+    conda activate energy_env
     ```
 
 3. **Install the required packages:**
@@ -87,3 +87,7 @@ Graduate Program in Computer Engineering, University of Pernambuco (PPGEC - UPE)
 ---
 
 By following the above steps and understanding the project structure, you will be able to reproduce and contribute to the project effectively.
+
+## Notes
+
+ - Geração de Energia Eólica só consta a partir de 2006
