@@ -18,8 +18,8 @@ To reproduce this project, follow the steps below:
 
 2. **Create and activate a new Anaconda environment:**
     ```bash
-    conda create --name energy_env python=3.12
-    conda activate energy_env
+    conda create --name energy_env_310 python=3.10
+    conda activate energy_env_310
     ```
 
 3. **Install the required packages:**
@@ -91,3 +91,5 @@ By following the above steps and understanding the project structure, you will b
 ## Notes
 
  - Geração de Energia Eólica só consta a partir de 2006
+ - Desconsiderar o mês de julho de 2024, já que está incompleto
+ - Python 3.10 foi instalado por ser a versão mais recente que o statsmodel aceita
